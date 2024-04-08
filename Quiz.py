@@ -74,3 +74,6 @@ def run_quiz(questions):
 
     # Print the final score from the stored variable
     print(f"\nYou got {score} out of {len(questions)} questions correct!")
+
+    # Run the quiz
+    run_quiz(questions)
